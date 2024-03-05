@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <!-- Doll cover image -->
+    <ImageView
+        android:id="@+id/DollImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_doll_image"></ImageView> <!-- Replace with actual drawable for doll's cover -->
+    android:scaleType="centerCrop"
+    android:adjustViewBounds="true" />
+
+    <!-- Doll name -->
+    <TextView
+        android:id="@+id/DollNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doll Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Doll size -->
+    <TextView
+        android:id="@+id/DollSizeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doll Size"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Doll rating -->
+    <RatingBar
+        android:id="@+id/RatingRB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="0.1"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Doll price -->
+    <TextView
+        android:id="@+id/DollpriceTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doll Price"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Doll description -->
+    <TextView
+        android:id="@+id/DolldescTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doll Description"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Quantity EditText -->
+    <EditText
+        android:id="@+id/QuantityET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Quantity"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <!-- Buy Button -->
+    <Button
+        android:id="@+id/BuyBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
