@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
 
-        <!-- MainActivity -->
+        <!-- com.example.aol_mcs.com.example.aol_mcs.com.example.aol_mcs.com.example.aol_mcs.MainActivity -->
         <activity android:name=".MainActivity" />
 
         <!-- com.example.aol_mcs.RegisterActivity -->
@@ -31,11 +31,7 @@
         <!-- ProfileActivity -->
         <activity android:name=".ProfileActivity" />
 
-        <activity android:name=".HomeActivity">
-
-            
-
-        </activity>
+        <activity android:name=".TransactionActivity" />
 
     </application>
 

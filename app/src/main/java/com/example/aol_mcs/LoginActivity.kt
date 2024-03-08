@@ -31,7 +31,7 @@ class LoginActivity : AppCompatActivity() {
             } else {
                 // Authenticate user
                 if (authenticateUser(username, password)) {
-                    // Redirect to HomeActivity
+                    // Redirect to com.example.aol_mcs.HomeActivity
                     redirectToHome(username)
                 } else {
                     showToast("Incorrect Username or Password")
@@ -70,11 +70,11 @@ class LoginActivity : AppCompatActivity() {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 
-    // Function to redirect to HomeActivity
+    // Function to redirect to com.example.aol_mcs.HomeActivity
     private fun redirectToHome(username: String) {
-        // Replace MainActivity::class.java with your actual home activity class
-        val intent = Intent(this, HomeActivity::class.java)
-        intent.putExtra("username", username) // Pass username to MainActivity
+        // Replace com.example.aol_mcs.com.example.aol_mcs.com.example.aol_mcs.com.example.aol_mcs.MainActivity::class.java with your actual home activity class
+        val intent = Intent(this, MainActivity::class.java)
+        intent.putExtra("username", username) // Pass username to com.example.aol_mcs.com.example.aol_mcs.com.example.aol_mcs.com.example.aol_mcs.MainActivity
         startActivity(intent)
         finish() // Finish the LoginActivity
     }
