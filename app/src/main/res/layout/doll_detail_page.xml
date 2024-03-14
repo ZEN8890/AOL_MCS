@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!-- ImageView for doll cover -->
     <ImageView
         android:id="@+id/imageViewDollCover"
         android:layout_width="match_parent"
@@ -10,6 +11,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/ic_doll_image" />
 
+    <!-- Text views for doll details -->
     <TextView
         android:id="@+id/textViewDollName"
         android:layout_width="wrap_content"
@@ -56,23 +58,15 @@
         android:text="Doll Description"
         android:padding="16dp"/>
 
-    <EditText
-        android:id="@+id/editTextQuantity"
+    <!-- Button for back -->
+    <Button
+        android:id="@+id/buttonback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/textViewDollDescription"
         android:layout_marginTop="16dp"
-        android:hint="Enter Quantity"
-        android:inputType="number"
-        android:layout_centerHorizontal="true"/>
-
-    <Button
-        android:id="@+id/buttonBuy"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/editTextQuantity"
-        android:layout_marginTop="16dp"
-        android:text="Buy"
+        android:text="Back"
         android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
+

@@ -6,6 +6,7 @@
     android:padding="20dp">
 
     <TextView
+        android:id="@+id/usernameTitleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Username"
@@ -13,41 +14,48 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/usernameTextView"
+        android:id="@+id/usernamebox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
         android:textSize="16sp" />
 
+
     <TextView
+        android:id="@+id/emailtitleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
 
     <TextView
-        android:id="@+id/EmailTV"
+        android:id="@+id/emailbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16sp" />
 
     <TextView
+        android:id="@+id/phoneNumbertitleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Phone Number"
-        android:textSize="20sp" />
+        android:text="Phone number"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
 
     <TextView
-        android:id="@+id/PhoneTV"
+        android:id="@+id/pnbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/LogoutBT"
+        android:id="@+id/logoutButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:text="Logout" />
+        android:text="Log out"
+        android:layout_marginTop="40dp" />
 
 </LinearLayout>
+
+
+

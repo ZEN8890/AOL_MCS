@@ -37,10 +37,10 @@ class TransactionAdapter(private val transactions: List<Transaction>) :
         val currentTransaction = transactions[position]
 
         // Bind the data to the views
-        holder.transactionIdTextView.text = currentTransaction.id.toString()
+        holder.transactionIdTextView.text = currentTransaction.idt.toString()
         holder.dollNameTextView.text = currentTransaction.dollName
         holder.quantityTextView.text = currentTransaction.quantity.toString()
-        holder.dateTextView.text = currentTransaction.date
+        holder.dateTextView.text = currentTransaction.dates
 
         // Set the product image
 //        holder.productImageView.setImageResource(currentTransaction.imageResId)
